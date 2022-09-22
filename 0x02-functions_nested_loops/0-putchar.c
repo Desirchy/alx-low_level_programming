@@ -1,8 +1,11 @@
 #include "main.h"
-
+#include "_putchar.c"
 /**
- * main - print putchar
- * Return: always 0
+ * main - prints Putchar
+ *
+ * Description: prints _putchar
+ *
+ * Return: 0 (Success)
  */
 
 int main(void)
@@ -18,5 +21,4 @@ int main(void)
 	_putchar('\n');
 
 	return (0);
-
 }
