@@ -1,7 +1,7 @@
-#include "main.h"                                                                                                            
-/**           
- *_memset - fills memory with a constant byte.                                   * @s: source string                                                        
- * @b: the constant byte for filling
+#include "main.h"                                                               /**           
+ *_memcpy - fills memory with another buffer  
+ * @dest: source string                                                        
+ * @scr: string for filling
  * @n: length of buffer
  * * Return: new string           
  */                                                                     
