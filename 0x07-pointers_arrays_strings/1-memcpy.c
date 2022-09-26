@@ -3,7 +3,7 @@
  * @dest: source string                                                        
  * @scr: string for filling
  * @n: length of buffer
- * * Return: new string           
+ * Return: new string           
  */                                                                     
 char *_memcpy(char *dest, char *src, unsigned int n);                                                                                                
 {                                                                                                                                             
@@ -12,7 +12,7 @@ char *_memcpy(char *dest, char *src, unsigned int n);
 			while (i < n)
 			{
 				*(dest + i) = *(scr + i);
-				i++
+				i++;
 			}
 			return (dest);
 }
