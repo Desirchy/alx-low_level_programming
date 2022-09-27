@@ -1,28 +1,27 @@
 #include "main.h"
-#include <stdio.h>
-/**
- * _strpbrk - prints the consecutive characters of s1 that are in s2
- * @s: source string
- * @accept: searching string
- * Return: new string
- */
 
+/**
+ * _strpbrk - matches any character specified*
+ * @s: This is the C string to be scanned.
+ * @accept:character in str1 that matches one of the characters in str2
+ * Return: string s that matches any character specified in accept
+ **/
 char *_strpbrk(char *s, char *accept)
 {
-	unsigned int i; j
+	int j;
 
-	for (i = 0; *(s + i) i++)
+	while (*s != '\0') /*Declaring WHILE*/
 	{
-		for (j = 0; *(accept + j); j++)
-			if (*(s + i) == *(accept + j))
-			{
-				break;
-			}
-		if (*(accept + j) != '\0')
+		j = 0;
+		while (accept[j] != '\0')  /*Evaluating *accept*/
 		{
-			return (s + i);
+			if (*s == accept[j])
+			{
+				return (s);
+			}
+			j++; /*add j+i*/
 		}
+		s++; /*add s+1*/
 	}
-
 	return (0);
 }
