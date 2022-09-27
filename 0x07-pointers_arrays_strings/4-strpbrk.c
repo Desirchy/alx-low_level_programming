@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * occurrence in the string s of any of the bytes in
  * the string accept
