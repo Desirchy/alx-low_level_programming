@@ -24,7 +24,7 @@ int coinConverter(int i)
 			i -= 10;
 		else if (i % 5 == 0)
 			i -= 5;
-			else if (i % 2 == 0)
+		else if (i % 2 == 0)
 		{
 			if (i % 10 == 6)
 				i -= 1;
@@ -37,6 +37,7 @@ int coinConverter(int i)
 		count++;
 
 	}
+
 	return (count);
 }
 
@@ -69,5 +70,6 @@ int main(int argc, char *argv[])
 
 		printf("%d\n", coin);
 	}
+
 	return (0);
 }
