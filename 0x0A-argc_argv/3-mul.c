@@ -15,6 +15,7 @@ int main(int argc, char *argv[])
 	if (argc == 1 || argc == 2)
 	{
 		printf("Error\n");
+		return (1);
 	}
 	else
 	{
@@ -25,5 +26,6 @@ int main(int argc, char *argv[])
 
 		printf("%d\n", j);
 	}
+
 	return (0);
 }
